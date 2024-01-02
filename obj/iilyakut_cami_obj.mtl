@@ -1,0 +1,313 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Translucent_Glass_Sky_Reflection
+Ka 0.000000 0.000000 0.000000
+Kd 0.494118 0.541176 0.717647
+Ks 0.330000 0.330000 0.330000
+d 0.520000
+map_Kd iilyakut_cami_obj/Translucent_Glass_Sky_Reflection.jpg
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.615686 0.627451
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Metal_Rough.jpg
+
+newmtl Color_C08
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.200000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Metal_Seamed
+Ka 0.000000 0.000000 0.000000
+Kd 0.713725 0.717647 0.694118
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Metal_Seamed.jpg
+
+newmtl Wood_Floor
+Ka 0.000000 0.000000 0.000000
+Kd 0.607843 0.411765 0.239216
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Wood_Floor.jpg
+
+newmtl _Metal_Corrogated_Shiny_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.756863 0.756863 0.756863
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/_Metal_Corrogated_Shiny_1.jpg
+
+newmtl Wallpaper_Dog_Bone
+Ka 0.000000 0.000000 0.000000
+Kd 0.835294 0.878431 0.878431
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Wallpaper_Dog_Bone.jpg
+
+newmtl Carpet_Loop_Pattern
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.266667 0.282353
+Ks 0.330000 0.330000 0.330000
+
+newmtl ______
+Ka 0.000000 0.000000 0.000000
+Kd 0.498039 0.498039 0.498039
+Ks 0.330000 0.330000 0.330000
+d 0.047059
+
+newmtl Old_Wood
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.494118 0.450980
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Old_Wood.png
+
+newmtl Metal_Rusty
+Ka 0.000000 0.000000 0.000000
+Kd 0.458824 0.352941 0.321569
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Metal_Rusty.jpg
+
+newmtl PDM_Hinkley_Lighting_Bastille_FR41240VBZ_Material_02
+Ka 0.000000 0.000000 0.000000
+Kd 0.329412 0.298039 0.294118
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/PDM_Hinkley_Lighting_Bastille_FR41240VBZ_Material_02.jpg
+
+newmtl PDM_Hinkley_Lighting_Bastille_FR41240VBZ_Material_03
+Ka 0.000000 0.000000 0.000000
+Kd 0.749020 0.749020 0.749020
+Ks 0.330000 0.330000 0.330000
+d 0.300000
+
+newmtl Wood_Floor_Parquet
+Ka 0.000000 0.000000 0.000000
+Kd 0.568627 0.349020 0.152941
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Wood_Floor_Parquet.jpg
+
+newmtl blinn3SG2
+Ka 0.000000 0.000000 0.000000
+Kd 0.737255 0.631373 0.447059
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/blinn3SG2.png
+
+newmtl Color_C08_1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.556863 0.317647
+Ks 0.330000 0.330000 0.330000
+
+newmtl Translucent_Glass_Tinted
+Ka 0.000000 0.000000 0.000000
+Kd 0.031373 0.788235 0.945098
+Ks 0.330000 0.330000 0.330000
+d 0.480000
+map_Kd iilyakut_cami_obj/Translucent_Glass_Tinted.jpg
+
+newmtl Metal_Aluminum_Anodized
+Ka 0.000000 0.000000 0.000000
+Kd 0.792157 0.819608 0.858824
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Metal_Aluminum_Anodized.jpg
+
+newmtl _61
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.329412 0.176471
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/_61.jpg
+
+newmtl Steve_Book
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.780392 0.780392
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Tan_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.823529 0.705882 0.549020
+Ks 0.330000 0.330000 0.330000
+
+newmtl Metal_Corrugated_Shiny
+Ka 0.000000 0.000000 0.000000
+Kd 0.756863 0.756863 0.756863
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Metal_Corrugated_Shiny.jpg
+
+newmtl Untitled1
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.698039 0.560784
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Untitled1.jpg
+
+newmtl Color_E02
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.600000
+Ks 0.330000 0.330000 0.330000
+d 0.730000
+
+newmtl Metal_Aluminum_Anodized1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.792157 0.819608 0.858824
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Metal_Aluminum_Anodized1_.jpg
+
+newmtl Translucent_Glass_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.705882 0.784314 0.929412
+Ks 0.330000 0.330000 0.330000
+d 0.500000
+
+newmtl Color_M09
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl leafs1
+Ka 0.000000 0.000000 0.000000
+Kd 0.345098 0.560784 0.078431
+Ks 0.330000 0.330000 0.330000
+
+newmtl flowers1
+Ka 0.000000 0.000000 0.000000
+Kd 0.917647 0.996078 0.270588
+Ks 0.330000 0.330000 0.330000
+
+newmtl bark1
+Ka 0.000000 0.000000 0.000000
+Kd 0.411765 0.423529 0.364706
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/bark1.jpg
+
+newmtl M_008_Vray_mat1
+Ka 0.000000 0.000000 0.000000
+Kd 0.164706 0.149020 0.133333
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/M_008_Vray_mat1.jpg
+
+newmtl M_0076_Green
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.501961 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Metal_Seamed1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.462745 0.466667 0.450980
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Metal_Seamed1_.jpg
+
+newmtl M_0133_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Translucent_Glass_Sky_Reflection_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.486275 0.541176 0.709804
+Ks 0.330000 0.330000 0.330000
+d 0.520000
+map_Kd iilyakut_cami_obj/_Translucent_Glass_Sky_Reflection_1.jpg
+
+newmtl Color_M00
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Leather_Blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.176471 0.223529 0.290196
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Leather_Blue.jpg
+
+newmtl Cast_in_place_Concrete
+Ka 0.000000 0.000000 0.000000
+Kd 0.988235 0.988235 0.988235
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Cast_in_place_Concrete.png
+
+newmtl Stone_Sandstone_Ashlar_Light
+Ka 0.000000 0.000000 0.000000
+Kd 0.807843 0.698039 0.501961
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Stone_Sandstone_Ashlar_Light.jpg
+
+newmtl Brick_Rough_Tan
+Ka 0.000000 0.000000 0.000000
+Kd 0.654902 0.552941 0.321569
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Brick_Rough_Tan.jpg
+
+newmtl Carrera_Marble
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Carrera_Marble.jpg
+
+newmtl _Wood_Cherry_Original_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.596078 0.337255 0.164706
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/_Wood_Cherry_Original_1.jpg
+
+newmtl Blacktop_Old_01
+Ka 0.000000 0.000000 0.000000
+Kd 0.517647 0.533333 0.545098
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Blacktop_Old_01.jpg
+
+newmtl Roofing_Slate_Tan
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.686275 0.501961
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Roofing_Slate_Tan.jpg
+
+newmtl Groundcover_Gravel_1_inch
+Ka 0.000000 0.000000 0.000000
+Kd 0.596078 0.521569 0.431373
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Groundcover_Gravel_1_inch.jpg
+
+newmtl Brick_Antique_01
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.411765 0.278431
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Brick_Antique_01.jpg
+
+newmtl Fencing_Picket_Concave
+Ka 0.000000 0.000000 0.000000
+Kd 0.627451 0.627451 0.627451
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Fencing_Picket_Concave.png
+
+newmtl Basic_Tile
+Ka 0.000000 0.000000 0.000000
+Kd 0.796078 0.807843 0.792157
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Basic_Tile.jpg
+
+newmtl Terrazzo_Tile_Light
+Ka 0.000000 0.000000 0.000000
+Kd 0.858824 0.850980 0.823529
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Terrazzo_Tile_Light.jpg
+
+newmtl Roofing_Tile_Spanish
+Ka 0.000000 0.000000 0.000000
+Kd 0.541176 0.250980 0.141176
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/Roofing_Tile_Spanish.jpg
+
+newmtl _Wood_Veneer_01_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.470588 0.274510 0.145098
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/_Wood_Veneer_01_2.jpg
+
+newmtl _Stone_Sandstone_Ashlar_Light_
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.705882 0.517647
+Ks 0.330000 0.330000 0.330000
+map_Kd iilyakut_cami_obj/_Stone_Sandstone_Ashlar_Light_.jpg
+
