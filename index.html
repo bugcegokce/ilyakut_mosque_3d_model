@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Model Viewer</title>
+    <title>My 3D Model</title>
     <style>
         body { margin: 0; }
         canvas { display: block; }
@@ -15,8 +15,8 @@
         import { OBJLoader } from 'https://cdn.skypack.dev/three@110.0.1/examples/jsm/loaders/OBJLoader.js';
         import { MTLLoader } from 'https://cdn.skypack.dev/three@110.0.1/examples/jsm/loaders/MTLLoader.js';
 
-        // Function to load OBJ, MTL, and Textures
-        function loadModel(objPath, mtlPath, texturePath, scene, camera, renderer) {
+        // Function to load OBJ and MTL
+        function loadModel(objPath, mtlPath, scene, camera, renderer) {
             const mtlLoader = new MTLLoader();
             mtlLoader.load(mtlPath, (materials) => {
                 materials.preload();
@@ -24,13 +24,6 @@
                 const objLoader = new OBJLoader();
                 objLoader.setMaterials(materials);
                 objLoader.load(objPath, (obj) => {
-                    // Set textures for each material
-                    obj.traverse((child) => {
-                        if (child instanceof THREE.Mesh) {
-                            child.material.map = new THREE.TextureLoader().load(texturePath);
-                        }
-                    });
-
                     scene.add(obj);
                 });
             });
@@ -49,10 +42,7 @@
         document.body.appendChild(renderer.domElement);
 
         // Load Model
-        loadModel('https://raw.githubusercontent.com/bugcegokce/ilyakut_mosque_3d_model/tree/main/obj/iilyakut_cami_obj', 
-                  'https://raw.githubusercontent.com/bugcegokce/ilyakut_mosque_3d_model/blob/main/obj/iilyakut_cami_obj.mtl', 
-                  'https://raw.githubusercontent.com/bugcegokce/ilyakut_mosque_3d_model/blob/main/obj/iilyakut_cami_obj/Basic_Tile.jpg', 
-                  scene, camera, renderer);
+        loadModel('obj/iilyakut_cami_obj.obj', 'obj/iilyakut_cami_obj.mtl', scene, camera, renderer);
 
         // Animation
         const animate = function () {
