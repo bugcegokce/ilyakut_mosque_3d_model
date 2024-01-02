@@ -11,12 +11,12 @@
 </head>
 <body>
     <script type="module">
-        import * as THREE from "https://unpkg.com/three@110.0.1/build/three.module.js';
-        import { OBJLoader } from 'https://unpkg.com/three@0.160.0/examples/jsm/loaders/OBJLoader.js';
-        import { MTLLoader } from 'https://unpkg.com/three@0.160.0/examples/jsm/loaders/MTLLoader.js';
+        import * as THREE from './path/to/three.module.js'; // three.module.js dosyanızın yolunu doğru şekilde güncelleyin
+        import { OBJLoader } from './path/to/OBJLoader.js'; // OBJLoader.js dosyanızın yolunu doğru şekilde güncelleyin
+        import { MTLLoader } from './path/to/MTLLoader.js'; // MTLLoader.js dosyanızın yolunu doğru şekilde güncelleyin
 
-        // Function to load OBJ and MTL
-        function loadModel(objPath, mtlPath, scene, camera, renderer) {
+        // Function to load OBJ, MTL, and Textures
+        function loadModel(objPath, mtlPath, texturePath, scene, camera, renderer) {
             const mtlLoader = new MTLLoader();
             mtlLoader.load(mtlPath, (materials) => {
                 materials.preload();
@@ -24,6 +24,15 @@
                 const objLoader = new OBJLoader();
                 objLoader.setMaterials(materials);
                 objLoader.load(objPath, (obj) => {
+                    // Set textures for each material
+                    obj.traverse((child) => {
+                        if (child instanceof THREE.Mesh) {
+                            // Assuming texture files are named consistently (e.g., material1.jpg, material2.jpg)
+                            const textureName = child.material.name + '.jpg';
+                            child.material.map = new THREE.TextureLoader().load(texturePath + textureName);
+                        }
+                    });
+
                     scene.add(obj);
                 });
             });
@@ -42,7 +51,7 @@
         document.body.appendChild(renderer.domElement);
 
         // Load Model
-        loadModel('obj/iilyakut_cami_obj.obj', 'obj/iilyakut_cami_obj.mtl', scene, camera, renderer);
+        loadModel('obj/iilyakut_cami_obj.obj', 'obj/iilyakut_cami_obj.mtl', 'obj/iilyakut_cami_obj', scene, camera, renderer);
 
         // Animation
         const animate = function () {
