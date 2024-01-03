@@ -3,66 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My 3D Model</title>
-    <style>
-        body { margin: 0; }
-        canvas { display: block; }
-    </style>
+    <title>OBJ Model Viewer</title>
+    <script type="module" src="path/to/your/main.js"></script>
 </head>
 <body>
-    <script type="module">
-        import * as THREE from '/three.module.js'; // three.module.js dosyanızın yolunu doğru şekilde güncelleyin
-        import { OBJLoader } from '/OBJLoader.js'; // OBJLoader.js dosyanızın yolunu doğru şekilde güncelleyin
-        import { MTLLoader } from '/MTLLoader.js'; // MTLLoader.js dosyanızın yolunu doğru şekilde güncelleyin
-
-        // Function to load OBJ, MTL, and Textures
-        function loadModel(objPath, mtlPath, texturePath, scene, camera, renderer) {
-            const mtlLoader = new MTLLoader();
-            mtlLoader.load(mtlPath, (materials) => {
-                materials.preload();
-
-                const objLoader = new OBJLoader();
-                objLoader.setMaterials(materials);
-                objLoader.load(objPath, (obj) => {
-                    // Set textures for each material
-                    obj.traverse((child) => {
-                        if (child instanceof THREE.Mesh) {
-                            // Assuming texture files are named consistently (e.g., material1.jpg, material2.jpg)
-                            const textureName = child.material.name + '.jpg';
-                            child.material.map = new THREE.TextureLoader().load(texturePath + textureName);
-                        }
-                    });
-
-                    scene.add(obj);
-                });
-            });
-        }
-
-        // Scene
-        const scene = new THREE.Scene();
-
-        // Camera
-        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        camera.position.z = 5;
-
-        // Renderer
-        const renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
-
-        // Load Model
-        loadModel('obj/iilyakut_cami_obj.obj', 'obj/iilyakut_cami_obj.mtl', 'obj/iilyakut_cami_obj', scene, camera, renderer);
-
-        // Animation
-        const animate = function () {
-            requestAnimationFrame(animate);
-
-            // Add your animations or interactions here
-
-            renderer.render(scene, camera);
-        };
-
-        animate();
-    </script>
 </body>
 </html>
